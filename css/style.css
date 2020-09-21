@@ -23,14 +23,13 @@
   padding: 15px 20px;
   background-color: transparent;
   text-transform: uppercase;
-  transition: all 0.5s;
   cursor: pointer;
-
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn:hover {
+  transition: all 0.5s;
   color: white;
   background-color: #007bff;
 }
@@ -186,10 +185,10 @@ span,
   font-weight: 300;
   font-size: 3em;
   opacity: 0;
-  transition: all 0.5s;
 }
 
 .portfolio-item h3:hover {
+  transition: all 0.5s;
   opacity: 100;
 }
 
@@ -248,11 +247,11 @@ textarea {
   font-size: 2.5em;
   margin: 40px 20px 0px 20px;
   color: #007bff;
-  transition: all 0.5s;
   display: inline-block;
 }
 
 .social-link:hover {
+  transition: all 0.5s;
   color: #777;
 }
 
